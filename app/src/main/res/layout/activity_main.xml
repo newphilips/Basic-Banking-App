@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_page"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Banking App"
+        android:textColor="#fff"
+        android:textSize="56sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:id="@+id/view_all_customers"
+        android:textStyle="bold"
+        android:background="@drawable/view_accounts_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="154dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View all accounts"
+        android:textAllCaps="false"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>
